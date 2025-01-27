@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardBut
 
 # Keyboard for language
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
-kb.add(KeyboardButton('🇺🇦')).insert(KeyboardButton('🇬🇧'))
+kb.add(KeyboardButton('🇺🇦')).insert(KeyboardButton('🇮🇳'))
 
 
 # Keyboard for topics UA
