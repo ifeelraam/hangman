@@ -89,10 +89,10 @@ async def help_command(message: types.Message):
 /daily_word — щоденне слово
 
 <b>Розробники</b>
-Варіч Д. О. — @Dima_Varich
-Варіч В. О. — @w0leriy
-Рагулін А. О. — @anton_rahulin
-Поляков Р. В. — @Catharsy
+Pro Developer — @interstellarXd
+Vortex V. S. — @kexx_xd
+Support G. C. — @BillaCore
+Support C. H. — @Storm_techh
           """)
         else:
           await message.answer(text="""
@@ -113,10 +113,10 @@ Hangman is a game in which you have to guess the word by letters. The guessed le
 /daily_word — daily word
 
 <b>Creators</b>
-Varich D. O. — @interstellarXd
-Varich V. O. — @kexx_xd
-Ragulin A. O. — @BillaCore
-Polyakov R. V. — @Storm_techh
+Pro Developer — @interstellarXd
+Vortex V. S. — @kexx_xd
+Support G. C. — @BillaCore
+Support C. H. — @Storm_techh
           """)
     else:
         await message.delete()
