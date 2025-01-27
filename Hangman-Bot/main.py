@@ -1,6 +1,7 @@
 import asyncio, pytz
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from aiogram import Bot, Dispatcher, executor
+from aiogram import Bot, Dispatcher, executor, types
+from aiogram.utils import executor
 from db import db_start, get_users_with_daily_option, add_daily_word, get_data
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from config import TOKEN_API
