@@ -113,10 +113,10 @@ Hangman is a game in which you have to guess the word by letters. The guessed le
 /daily_word — daily word
 
 <b>Creators</b>
-Varich D. O. — @Dima_Varich
-Varich V. O. — @w0leriy
-Ragulin A. O. — @anton_rahulin
-Polyakov R. V. — @Catharsy
+Varich D. O. — @interstellarXd
+Varich V. O. — @kexx_xd
+Ragulin A. O. — @BillaCore
+Polyakov R. V. — @Storm_techh
           """)
     else:
         await message.delete()
