@@ -8,7 +8,7 @@ from background import keep_alive
 from hangman import get_daily_word
 
 # Setting
-my_timezone = pytz.timezone('Europe/Kiev')
+my_timezone = pytz.timezone('Asia/Kolkata')
 loop = asyncio.new_event_loop()
 bot: Bot = Bot(TOKEN_API, parse_mode='HTML')
 dp = Dispatcher(bot, loop=loop)
@@ -26,9 +26,9 @@ async def daily_word_handler(user_id):
     )
     
     if language == 'ua':
-        await bot.send_message(chat_id=user_id, text="""👋 <b>Привіт!</b>
+        await bot.send_message(chat_id=user_id, text="""👋 <b>Greetings!</b>
                 
-📆 Сьогоднішнє слово готове для <b>Тебе</b>. Хочете його відгадати зараз? 🤔 Або можете зберегти цю можливість до завтра! 🌄""",
+📆 Today's word is ready for <b>Тебе</b>. Do you want to guess it now? 🤔 Or you can save this opportunity until tomorrow! 🌄""",
                                reply_markup=keyboard)
     elif language == 'gb':
         await bot.send_message(chat_id=user_id, text="""👋 <b>Hello!</b>
@@ -45,7 +45,7 @@ async def send_daily_message():
 
 async def on_start_up(_):
     await db_start()
-    print('Бот был успешно запущен!')
+    print('The bot was successfully launched!')
 
 
 if __name__ == "__main__":
