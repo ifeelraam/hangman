@@ -58,7 +58,7 @@ async def start_command(message: types.Message):
 Hii 😉This Is Billa Hangman^Game Bot.
 Thanks For Using Me,To Play Games Add Me Now To your Group chat.
       """)
-    await message.answer_animation(animation="CgACAgIAAxkBAAIOX2PEflqP2xcSYF-X1SI0DaXxUSmZAAKPCQACTs5xSImPadHwfWmsLQQ")
+    await message.answer_animation(animation="https://graph.org/file/fb93a2cd43c367f62c01b-50e610807938aff356.jpg")
     await delete_row(id)
     await create_profile(user_id=message.from_user.id)
     await message.answer(text="Обери мову / Choose language:", reply_markup=kb)
